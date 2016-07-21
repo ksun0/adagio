@@ -2276,7 +2276,7 @@ input[type="reset"].special,
 input[type="button"].special,
 button.special,
 .button.special {
-    background-color: #00a65a;
+    background-color: #2e3842;
     box-shadow: none !important;
     color: #ffffff !important;
 }
@@ -2286,7 +2286,7 @@ input[type="reset"].special:hover,
 input[type="button"].special:hover,
 button.special:hover,
 .button.special:hover {
-    background-color: #00c068 !important;
+    background-color: #343F4A !important;
 }
 
 input[type="submit"].special:active,
@@ -2294,7 +2294,7 @@ input[type="reset"].special:active,
 input[type="button"].special:active,
 button.special:active,
 .button.special:active {
-    background-color: #008d4c !important;
+    background-color: #1F262D !important;
 }
 
 input[type="submit"].disabled,
@@ -2396,7 +2396,7 @@ button:disabled,
 
 .features li:before {
     display: block;
-    color: #00ffcc;
+    color: #00a65a;
     position: absolute;
     left: 1.75em;
     top: 2.75em;
@@ -2591,8 +2591,8 @@ button:disabled,
 }
 
 .wrapper.style1 {
-    background-color: #21b2a6;
-    color: #c7ebe8;
+    background-color: #68829E;
+    color: #ffffff;
 }
 
 .wrapper.style1 strong,
@@ -2756,7 +2756,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-    background-color: #505393;
+    background-color: #68829E;
     color: #d3d4e4;
 }
 
@@ -3128,8 +3128,8 @@ button:disabled,
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     -webkit-overflow-scrolling: touch;
-    background: #00a65a;
-    HELLO color: #ffffff;
+    background: #2E3842;
+    color: #ffffff;
     height: 100%;
     max-width: 80%;
     overflow-y: auto;
@@ -3469,7 +3469,7 @@ body.is-menu-visible #menu {
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     content: '';
-    background: #00a65a;
+    background: #2e3842;
     HELLO display: block;
     width: 100%;
     height: 100%;
@@ -3753,5 +3753,11 @@ body.is-mobile.landing #footer {
 }
 
 body {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+#pricing {
+     color: black;
+    background-color: #ffffff;
+   
 }
